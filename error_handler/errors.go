@@ -32,8 +32,8 @@ func NotFoundError(w http.ResponseWriter, message string) {
 
 	response, _ := json.Marshal(&errResponse)
 
-	w.WriteHeader(http.StatusNotFound)
 	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusNotFound)
 	w.Write(response)
 }
 
