@@ -1,0 +1,14 @@
+{
+ "1": {
+  "id": 1,
+  "name": "Rahul kumar",
+  "position": "Staff Engineer",
+  "salary": 2400
+ },
+ "2": {
+  "id": 2,
+  "name": "Rahul kumar",
+  "position": "Staff Engineer",
+  "salary": 2400
+ }
+}
